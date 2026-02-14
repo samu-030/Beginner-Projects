@@ -1,0 +1,29 @@
+2. Guess the number using Python.
+
+LOGIC / PSEUDOCODE :
+
+START
+
+Generate a random number using randint
+
+loop until True:
+
+  try block 
+      #to catch an error:
+      get a guess (use int input)
+
+      if the guess is greater:
+         print a low message
+      elif the guess is smaller:
+         print a greater message
+      else:
+         print correct and break
+         END
+   
+  except block 
+      #to execute in case of error:
+      print an invalid input message if there is a ValueError.
+
+
+
+  
